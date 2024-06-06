@@ -1,2 +1,6 @@
-language = "php7"
 run = "php -S 0.0.0.0:8000 -t htdocs"
+entrypoint = "index.php"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
